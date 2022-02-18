@@ -34,9 +34,9 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 40%;
-  min-width: 300px;
-  min-height: 500px;
+  width: 90%;
+  min-width: 500px;
+  max-height: 500px;
   background-color: var(--white);
 }
 .header{

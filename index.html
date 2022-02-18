@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script
+      src="https://kit.fontawesome.com/1935d064dd.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="app">
+      <h4 class="header">Password Generator</h4>
+      <div class="white">
+        <h3>Generate password</h3>
+        <p>
+          Let Password Generator create a unique password for you. Once youre
+          done, click the copy button
+        </p>
+        <div class="pas">
+          <label for="password"></label>
+          <div class="but">
+            <input type="text" id="password" />
+            <i class="fa fa-refresh"></i>
+            <button class="copy">copy</button>
+          </div>
+        </div>
+        <div class="range">
+          <label for="range"
+            ><span>Password length</span
+            ><span class="rangeValue">15</span></label
+          >
+          <input step="1" type="range" max="15" class="ranges"/>
+        </div>
+
+        <div class="checkboxes">
+          <label for="letters"><span>Use letters</span><div class="check"></div>
+          </label>
+          <label for="number" ><span>Use numbers</span><div class="check"></div>
+          </label>
+          <label for="special"><span>Use special characters</span><div class="check"></div>
+          </label>
+          <label for="capitals"><span>Use capitals</span><div class="check"></div>
+          </label>
+          <input class="box" type="checkbox"  id="letters">
+          <input class="box" type="checkbox" id="number">
+          <input class="box" type="checkbox"  id="special">
+          <input class="box" type="checkbox"  id="capitals">
+        </div>
+        <h2 class="generate">Generate password</h2>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
